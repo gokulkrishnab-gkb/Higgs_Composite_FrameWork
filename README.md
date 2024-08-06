@@ -4,4 +4,4 @@ This is a project under development , where we deal with the composte higgs fram
 
 Model UFO File. : HC_FormFactor:1.zip <br/>
 
-$$L_(hVV)=g_(V)^(SM)(Pi_(V)^(mu nu)(p_(1),p_(2)))/(f^(2))hV_( mu)(p_(1))V_( nu)(p_(2))$$
+$$\mathcal{L}_{h V V}=g_V^{\mathrm{SM}} \frac{\Pi_V^{\mu \nu}\left(p_1, p_2\right)}{f^2} h V_\mu\left(p_1\right) V_\nu\left(p_2\right)$$
