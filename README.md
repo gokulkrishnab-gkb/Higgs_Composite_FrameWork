@@ -4,4 +4,4 @@ This is a project under development , where we deal with the composte higgs fram
 
 Model UFO File. : HC_FormFactor:1.zip <br/>
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$L_(hVV)=g_(V)^(SM)(Pi_(V)^(mu nu)(p_(1),p_(2)))/(f^(2))hV_( mu)(p_(1))V_( nu)(p_(2))$$
