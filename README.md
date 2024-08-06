@@ -6,12 +6,7 @@ Model UFO File. : HC_FormFactor:1.zip <br/>
 
 ## Lagrangian for Higgs Coupling to Vector Bosons
 
-The Lagrangian for the coupling of the Higgs boson to vector bosons is given by:
+The Lagrangian for the Higgs boson coupling to vector bosons is given by:
 
 ```math
-\mathcal{L}_{h V V} = g_V^{\mathrm{SM}} \frac{\Pi_V^{\mu \nu}\left(p_1, p_2\right)}{f^2} h V_\mu\left(p_1\right) V_\nu\left(p_2\right)
-
-
-The `---` creates a horizontal rule to separate the sections, making it clear that the force equation is a new topic or concept being introduced.
-
-
+\mathcal{L}_{hVV} = g_V^{\mathrm{SM}} \frac{\Pi_V^{\mu \nu}(p_1, p_2)}{f^2} h V_\mu(p_1) V_\nu(p_2)
