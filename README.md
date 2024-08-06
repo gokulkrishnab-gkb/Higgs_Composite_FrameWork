@@ -20,6 +20,8 @@ root -l particle_extract.C' ("/path/to/root/.root")' <br/>
 
 **Step2:** <br/>
 The data needs to be cleaned and , as a first hand information need to plot the histogram of lepton+, lepton- and b-quark transverse momentum to check it's behaviour with the existing work.
-The cleaning and histogram plots can be found in the 
+The cleaning and histogram plots can be found in the : data_organisation.ipynb <br/>
+
+
 
 
