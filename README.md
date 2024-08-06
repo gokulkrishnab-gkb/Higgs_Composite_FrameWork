@@ -5,4 +5,4 @@ This is a project under development , where we deal with the composte higgs fram
 Model UFO File. : HC_FormFactor:1.zip <br/>
 
 **The Cauchy-Schwarz Inequality**
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$\mathcal{L}_{h V V}=g_V^{\mathrm{SM}} \frac{\Pi_V^{\mu \nu}\left(p_1, p_2\right)}{f^2} h V_\mu\left(p_1\right) V_\nu\left(p_2\right)$$
