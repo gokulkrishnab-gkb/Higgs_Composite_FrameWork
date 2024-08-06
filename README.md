@@ -5,6 +5,15 @@ This is a project under development , where we deal with the composte higgs fram
 Model UFO File. : HC_FormFactor:1.zip <br/>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+<body>
+
 ## Lagrangian for Higgs Coupling to Vector Bosons
 
 The Lagrangian for the coupling of the Higgs boson to vector bosons is given by:
@@ -23,3 +32,6 @@ $$
 \left.\left.+c_3^V p_1^\mu p_2^\nu+c_4^V p_1^\mu p_1^\nu+c_5^V p_2^\mu p_2^\nu\right\}\right].
 \end{array}
 $$
+
+</body>
+</html>
