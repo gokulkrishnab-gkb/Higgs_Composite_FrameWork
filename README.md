@@ -22,6 +22,6 @@ root -l particle_extract.C' ("/path/to/root/.root")' <br/>
 The data needs to be cleaned and , as a first hand information need to plot the histogram of lepton+, lepton- and b-quark transverse momentum to check it's behaviour with the existing work.
 The cleaning and histogram plots can be found in the : data_organisation.ipynb <br/>
 
-
-
+**Step3:** <br/> From the cleaned data we only need four variables for our purpose to find the coorelation matrix and the Mutual information factor among the variables . Those are Eta, Phi, PT and PZ. <br/>
+To extract the this particular information and save into another csv file follow follow same file data_organisation.ipynb  in the latter part of the code we will also calculate the coorelation matrix and the mutual information matrix in the same script. <br/>
 
