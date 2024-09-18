@@ -1,27 +1,30 @@
-# Higgs_Composite_FrameWork
-This is a project under development , where we deal with the composte higgs framewrok and try to see it's analysis implementation using different algorithms such as BDT,DNN and conventional cut and count
-<br/>
+# Higgs Composite Framework
 
-Model UFO File. : HC_FormFactor:1.zip <br/>
+This project is a work in progress, focusing on the composite Higgs framework. The goal is to analyze and implement different algorithms such as BDT, DNN, and the traditional cut-and-count method for the process.
+<br/><br/>
 
-The model information can be found in the reference : https://arxiv.org/pdf/2105.01093 <br/>
+**Model UFO File:** <a href="#">HC_FormFactor:1.zip</a><br/>
+For more information on the model, refer to the following paper: <a href="https://arxiv.org/pdf/2105.01093" target="_blank">arXiv:2105.01093</a>.<br/>
+The model is implemented, and the UFO file is included in `HC_FormFactor:1.zip`.
+<br/><br/>
 
-The Model is implemented and UFO is attached HC_FormFactor:1.zip <br/>
+**Process Overview:**<br/>
+We are studying the process <b>pp &rarr; ZH</b>, where <b>Z &rarr; l⁺l⁻</b> and <b>H &rarr; bb̅</b>.
+<br/><br/>
 
-To Showcase the analysis , we have created two dataset which is extracted from .root file <br/>
-The process which we have studies is P P > Z H , ( Z > l+ l- ) , ( H > b b~ )
+## Step 1: Extracting Particle Information
+The extraction of particle information from the `.root` file is implemented. The kinematic variables of interest include `PT(l⁺)`, `PT(l⁻)`, `PT(b)`, `ΔR(l⁺, l⁻)`, `M(l⁺l⁻)`, and `M(l⁺l⁻bb̅)`.  
+The script provides elementary kinematic information such as `Eta`, `Phi`, `Px`, `Py`, `Pz`, `E`, as well as derived variables like `M` and `PT`.<br/>
+The script can be found in: `particle_extract.csv`.<br/>
+To run this script, place it inside `Delphes/examples` and use the following command from the Delphes terminal:<br/>
+<code>root -l 'particle_extract.C("/path/to/root/.root")'</code>
+<br/><br/>
 
-**Step 1 :** <br/> 
-Extraction of Particle information from the .root file is implemented. The Kinematic variables of our interest are , PT(l+),PT(l-),PT(b),DeltaR(l+,l-),M(l+,l-),M(l+l-bb~) <br/>
-The Script will provide the elementary kinematic informations such as Eta,Phi,Px,Py,Pz,E also the single entity derived variable like M and PT <br/>
-The Script can be found out in : particle_extract.csv <br/>
-save this file inside Delphes/examples and to run this script be in Delphes control terminal. Then follow the following command.<br/>
-root -l particle_extract.C' ("/path/to/root/.root")' <br/>
+## Step 2: Data Cleaning and Visualization
+The data needs to be cleaned, and as an initial step, histograms of `lepton⁺`, `lepton⁻`, and `b-quark` transverse momentum should be plotted to check their behavior in comparison to existing studies.<br/>
+The cleaning process and histogram plots can be found in: `data_organisation.ipynb`.
+<br/><br/>
 
-**Step2:** <br/>
-The data needs to be cleaned and , as a first hand information need to plot the histogram of lepton+, lepton- and b-quark transverse momentum to check it's behaviour with the existing work.
-The cleaning and histogram plots can be found in the : data_organisation.ipynb <br/>
-
-**Step3:** <br/> From the cleaned data we only need four variables for our purpose to find the coorelation matrix and the Mutual information factor among the variables . Those are Eta, Phi, PT and PZ. <br/>
-To extract the this particular information and save into another csv file follow follow same file data_organisation.ipynb  in the latter part of the code we will also calculate the coorelation matrix and the mutual information matrix in the same script. <br/>
-
+## Step 3: Correlation and Mutual Information
+From the cleaned data, four key variables—`Eta`, `Phi`, `PT`, and `Pz`—are required to calculate the correlation matrix and mutual information among the variables.<br/>
+To extract this data and save it to a new CSV file, continue using `data_organisation.ipynb`. In the latter part of the notebook, the correlation matrix and mutual information matrix are also computed.
