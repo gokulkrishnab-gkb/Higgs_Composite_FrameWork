@@ -28,3 +28,28 @@ The cleaning process and histogram plots can be found in: `data_organisation.ipy
 ## Step 3: Correlation and Mutual Information
 From the cleaned data, four key variables—`Eta`, `Phi`, `PT`, and `Pz`—are required to calculate the correlation matrix and mutual information among the variables.<br/>
 To extract this data and save it to a new CSV file, continue using `data_organisation.ipynb`. In the latter part of the notebook, the correlation matrix and mutual information matrix are also computed.
+
+
+just like you did it for bp1_markers = {
+    'M1': (-66.68, 89.68),
+    'M2': (-16.50, 64.59),
+    'M3': (18.71, 46.98),
+    'M4': (53.73, 29.47)
+}
+
+i have bp2_marker ,bp3_marker etc upto bp_10marker. I need to include all of that.
+
+also i need to print out at the end a table with coloums BP1,BP2,BP3,BP4 etc.. upto BP10
+with row 1 corrsponds to M1 coordinates
+row 2 for M2 coordinates
+row 3 for M3 coordinates
+row 4 for M4 coordinates
+
+the information regarding other markers
+
+ bp2_markers = {
+    'M1': (-66.68, 41.04),
+    'M2': (, 64.59),
+    'M3': (18.71, 46.98),
+    'M4': (53.73, 29.47)
+}
